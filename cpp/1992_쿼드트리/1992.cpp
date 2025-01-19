@@ -3,9 +3,6 @@
 #include <iostream>
 #include <string>
 
-#define COLOR_BLUE 1
-#define COLOR_WHITE 0
-
 int image[64][64] {};
 
 void MakeQuadTree(int startH, int startW, int size)
